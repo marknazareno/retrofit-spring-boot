@@ -18,7 +18,7 @@ interfaces and annotate them as `RetrofitClient`.
 
 #### Create your interface
 
-```
+```java
 @RetrofitClient(name = "github", baseUrl = "https://api.github.com")
 public interface GithubApi {
     @GET("/repos/{owner}/{repo}/contributors")
